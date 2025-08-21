@@ -53,6 +53,7 @@ cd boost_1_68_0
 export LD_LIBRARY_PATH=$project/boost_1_68_0/stage/lib:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$project/boost_1_68_0/lib:$LD_LIBRARY_PATH
 export PATH=$PATH:$project/boost_1_68_0
+cd ..  # Go back to the LigTMap directory
 ```
 
 ## 7. Install Boost 1.59.0 (for PSOVina 2.0)
@@ -113,6 +114,7 @@ source "$project/mgltools_x86_64Linux2_1.5.6/initMGLtools.sh"
 export LIGTMAP="$project"
 export MGLTools="$project/mgltools_x86_64Linux2_1.5.6"
 ```
+
 
 
 
