@@ -11,7 +11,7 @@ cd $project
 
 ## 3. Clone LigTMap Repository
 ```bash
-git clone https://github.com/ShirleyWISiu/LigTMap.git
+git clone https://github.com/xdn-github/LigTMap.git
 cd LigTMap
 ```
 
@@ -113,6 +113,7 @@ source "$project/mgltools_x86_64Linux2_1.5.6/initMGLtools.sh"
 export LIGTMAP="$project"
 export MGLTools="$project/mgltools_x86_64Linux2_1.5.6"
 ```
+
 
 
 
