@@ -41,7 +41,7 @@ mopac "Example data set.mop"  # Test MOPAC installation
 cd ..
 ```
 
-## 6. Install Boost 1.68.0 (for libboost_python27.so.1.68.0)
+## 6. Install Boost 1.68.0 (I don't know why need it, but it just work to fix bug)
 ```bash
 wget https://jaist.dl.sourceforge.net/project/boost/boost/1.68.0/boost_1_68_0.tar.gz?viasf=1
 tar -zxvf 'boost_1_68_0.tar.gz?viasf=1'
@@ -113,5 +113,6 @@ source "$project/mgltools_x86_64Linux2_1.5.6/initMGLtools.sh"
 export LIGTMAP="$project"
 export MGLTools="$project/mgltools_x86_64Linux2_1.5.6"
 ```
+
 
 
