@@ -22,10 +22,7 @@ cd LigTMap
 conda create -n LigTMap3 python=2.7
 conda activate LigTMap3
 conda install rdkit==2016.03.4 -c rdkit  # Installs boost 1.56.0
-conda install -c conda-forge openbabel=3.0.0
-conda install -c conda-forge scikit-learn=0.19.2
-conda install -c conda-forge pandas=0.23.4
-mamba install -c conda-forge openbabel=3.0.0 scikit-learn=0.19.2 pandas=0.23.4
+conda install -c conda-forge openbabel=3.0.0 scikit-learn=0.19.2 pandas=0.23.4
 python -m pip install pybel==0.12.2 numpy==1.11.3 oddt
 ```
 
@@ -116,4 +113,5 @@ source "$project/mgltools_x86_64Linux2_1.5.6/initMGLtools.sh"
 export LIGTMAP="$project"
 export MGLTools="$project/mgltools_x86_64Linux2_1.5.6"
 ```
+
 
